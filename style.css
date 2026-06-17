@@ -1,0 +1,34 @@
+h1 {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.music-card {
+    position: relative;
+    border: 1px solid #cecdc2;
+    background-color: #ecebe0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parent-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.status-badge, .track-title, .track-artist, #track-title, #track-artist {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
