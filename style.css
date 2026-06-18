@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 20px;
     display: flex;
@@ -7,8 +7,8 @@ h1 {
 
 .music-card {
     position: relative;
-    border: 1px solid #cecdc2;
-    background-color: #ecebe0;
+    border: 1px solid #f1f1f1;
+    background-color: #f9f9f9;
     border-radius: 8px;
     padding: 16px;
     margin: 20px;
@@ -31,4 +31,19 @@ p {
 
 .status-badge, .track-title, .track-artist, #track-title, #track-artist {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.about {
+    margin: 10px;
+    justify-content: center;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    display: block;
+}
+
+.gradient-red {
+    background: linear-gradient(to right, #ff0000, #5e0303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }

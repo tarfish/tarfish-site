@@ -39,9 +39,6 @@ async function updateMusicWidget() {
       badge.className = "status-badge offline";
     }
 
-    document.getElementById('loading').classList.add('hidden');
-    document.getElementById('music-content').classList.remove('hidden');
-
   } catch (error) {
     console.error('System failed to process Last.fm payload:', error);
     document.getElementById('loading').innerText = "Unable to load music data.";
